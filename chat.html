@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat box</title>
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+      <!-- My CSS file -->
+    <link rel="stylesheet" href="./CSS/cruise.css">
+    <link rel="stylesheet" href="./CSS/sell.css">
+</head>
+<body>
+
+      <!-- My Navigation bar -->
+      <nav class="navbar navbar-expand-lg navbar-top ">
+        <div class="logo">
+        <a href="./index.html" class="navbar-brand"> <img src="./images/WhatsApp_Image_2021-07-29_at_2.27 1.png" alt="">CRUISE MART</a>
+     </div>
+        <span class="navbar-toggler-icon"></span>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-4">
+                <li class="nav-item"><a class="nav-link" href="./index.html"></a></li>
+                <li class="nav-item"><a class="nav-link" href="./buy.html">Buy a Car</a></li>
+                <li class="nav-item"><a class="nav-link" href="./sell.html">Sell a Car</a></li>
+                <li class="nav-item"><a class="nav-link" href="./connect with us.html">Connect With Us</a></li>
+
+            </ul>
+        </div>
+ 
+    </nav>
+    
+    <!-- Chat Box-->
+    <div class="container">
+        <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1 class="display-3 mt-5 text-center">Chat with our customer care agent</h1>
+                <p class="text-center text-muted">services hours: 8:00AM - 5:00PM, Mondays - Saturdays </p>
+                <label for="msg">
+                    <b>Message</b>
+                </label>
+                <textarea placeholder="Type message.." name="msg" required class="form-control from-control-lg">
+                </textarea><BR>
+                <button type="submit" class="btn btn-lg btn-outline-success">Send</button>
+                <button type="submit" class="btn cancel btn-lg btn-danger " >Cancel</button>
+            </form>
+        </div>
+        
+    </div>
+
+    <!-- Boostrap Javascript-->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- JQUERY Javascript -->
+    <script src="./js/jquery.min.js"></script>
+
+    <!-- Our custom Javascript -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
+    
